@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>br.gov.mg.fazenda.recaptcha</groupId>
+  <artifactId>recaptcha-project</artifactId>
+  <packaging>pom</packaging>
+  <name>Recaptcha JSF Components Library Project</name>
+  <version>2.0.1</version>
+  <url>http://fazenda.mg.gov.br</url>
+
+  <description>
+      This is the project for recaptcha components. This will build both the core and the examples
+  </description>
+
+    <modules>
+        <module>core</module>
+        <module>examples</module>
+    </modules>
+
+    <repositories>
+        <repository>
+            <id>Myfaces repository</id>
+            <url>http://myfaces.zones.apache.org/dist/maven-repository</url>
+        </repository>
+    </repositories>
+
+</project>
